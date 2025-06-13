@@ -109,7 +109,8 @@ Changelog:
 - June 13, 2025: Updated site to use custom black lab PNG as favicon and logo throughout navigation, hero, and footer
 - June 13, 2025: Removed "Don't Forget Guiness" and "More Ways to Share" sections for cleaner design
 - June 13, 2025: Implemented responsive mobile-centered navigation header
-- June 13, 2025: Fixed photo gallery image display issues and added two full-width images (wedding ceremony and tandem bicycle)
+- June 13, 2025: Fixed photo gallery image display issues and added two full-width images (wedding ceremony and couple on bicycles)
+- June 13, 2025: Repositioned site icon in hero section below couple's names and updated bicycle image
 
 ## User Preferences
 

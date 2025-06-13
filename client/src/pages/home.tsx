@@ -62,12 +62,12 @@ export default function Home() {
       
       <LocationMap />
       
-      {/* Full-width tandem bicycle image */}
+      {/* Full-width couple riding bicycles image */}
       <section className="w-full">
         <div className="relative h-96 md:h-[500px] overflow-hidden">
           <img
-            src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?auto=format&fit=crop&w=1920&h=800&q=80"
-            alt="Couple riding tandem bicycle"
+            src="https://images.unsplash.com/photo-1544191696-15693e02b685?auto=format&fit=crop&w=1920&h=800&q=80"
+            alt="Couple riding bicycles"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-black/20"></div>

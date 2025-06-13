@@ -16,15 +16,15 @@ export default function HeroSection() {
       
       {/* Content */}
       <div className="relative z-10 text-center text-white px-4">
-        <div className="flex items-center justify-center mb-6">
+        <h1 className="font-playfair text-5xl md:text-7xl font-bold mb-6">
+          Kate & Charley
+        </h1>
+        <div className="flex justify-center mb-6">
           <img 
             src="/favicon.png" 
             alt="Guiness the black lab" 
-            className="w-12 h-12 object-contain mr-4 filter invert"
+            className="w-12 h-12 object-contain filter invert"
           />
-          <h1 className="font-playfair text-5xl md:text-7xl font-bold">
-            Kate & Charley
-          </h1>
         </div>
         <p className="text-xl md:text-2xl font-light mb-8">
           are getting married
