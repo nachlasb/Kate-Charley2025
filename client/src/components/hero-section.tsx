@@ -17,9 +17,11 @@ export default function HeroSection() {
       {/* Content */}
       <div className="relative z-10 text-center text-white px-4">
         <div className="flex items-center justify-center mb-6">
-          <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center mr-4">
-            <i className="fas fa-dog text-white text-2xl"></i>
-          </div>
+          <img 
+            src="/favicon.png" 
+            alt="Guiness the black lab" 
+            className="w-12 h-12 object-contain mr-4 filter invert"
+          />
           <h1 className="font-playfair text-5xl md:text-7xl font-bold">
             Kate & Charley
           </h1>

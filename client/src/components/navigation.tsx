@@ -43,9 +43,11 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-3">
-            <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
-              <i className="fas fa-dog text-white text-lg"></i>
-            </div>
+            <img 
+              src="/favicon.png" 
+              alt="Guiness the black lab" 
+              className="w-8 h-8 object-contain"
+            />
             <div className="font-playfair text-xl font-semibold text-primary">
               Kate & Charley
             </div>
