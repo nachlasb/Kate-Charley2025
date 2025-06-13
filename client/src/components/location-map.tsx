@@ -131,24 +131,6 @@ export default function LocationMap() {
             </div>
           </div>
         </div>
-        
-        {/* Getting Around Visual */}
-        <div className="mt-12">
-          <div className="relative h-64 md:h-80 overflow-hidden rounded-xl">
-            <img
-              src="https://thumbs.dreamstime.com/b/couple-tandem-bicycle-beautiful-young-having-fun-riding-park-104166098.jpg"
-              alt="Couple exploring by bicycle - getting around Sandpoint"
-              className="w-full h-full object-cover"
-            />
-            <div className="absolute inset-0 bg-black/30"></div>
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="text-center text-white">
-                <h4 className="font-playfair text-2xl md:text-3xl font-bold mb-2">Explore Together</h4>
-                <p className="text-lg">Discover all Sandpoint has to offer</p>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );

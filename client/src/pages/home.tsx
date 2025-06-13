@@ -61,6 +61,19 @@ export default function Home() {
       </section>
       
       <LocationMap />
+      
+      {/* Full-width couple riding bicycles image */}
+      <section className="w-full">
+        <div className="relative h-96 md:h-[500px] overflow-hidden">
+          <img
+            src="https://thumbs.dreamstime.com/b/couple-tandem-bicycle-beautiful-young-having-fun-riding-park-104166098.jpg"
+            alt="Couple riding tandem bicycle"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-black/20"></div>
+        </div>
+      </section>
+      
       <Accommodations />
       <Activities />
       <Registry />
