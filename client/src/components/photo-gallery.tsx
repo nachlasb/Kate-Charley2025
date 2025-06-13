@@ -94,19 +94,7 @@ export default function PhotoGallery() {
           ))}
         </div>
 
-        {/* Additional Hashtags */}
-        <div className="bg-light-blue rounded-xl p-8 text-center">
-          <h4 className="font-playfair text-xl font-semibold text-primary mb-4">More Ways to Share</h4>
-          <p className="text-gray-700 mb-4">
-            Use these hashtags to help us find and share all the beautiful moments from our special day
-          </p>
-          <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-600">
-            <span className="bg-white rounded-full px-4 py-2">#KateAndCharley</span>
-            <span className="bg-white rounded-full px-4 py-2">#SandpointWedding</span>
-            <span className="bg-white rounded-full px-4 py-2">#MountainLove</span>
-            <span className="bg-white rounded-full px-4 py-2">#IdahoWedding</span>
-          </div>
-        </div>
+
       </div>
     </section>
   );

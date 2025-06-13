@@ -106,6 +106,9 @@ Changelog:
 - June 13, 2025: Updated venue display to side-by-side column layout
 - June 13, 2025: Enhanced Getting Around section with improved visual design
 - June 13, 2025: Added Instagram photo gallery with #unforgettablenish hashtag promotion for guest engagement
+- June 13, 2025: Updated site to use custom black lab PNG as favicon and logo throughout navigation, hero, and footer
+- June 13, 2025: Removed "Don't Forget Guiness" and "More Ways to Share" sections for cleaner design
+- June 13, 2025: Implemented responsive mobile-centered navigation header
 
 ## User Preferences
 
