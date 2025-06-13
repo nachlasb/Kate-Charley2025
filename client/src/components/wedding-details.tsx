@@ -86,31 +86,43 @@ export default function WeddingDetails() {
 
         {/* Additional Information */}
         <div className="mt-12 bg-light-blue rounded-xl p-8">
-          <h4 className="font-semibold text-primary mb-4 text-lg">
+          <h4 className="font-playfair text-2xl font-semibold text-primary mb-8 text-center">
             Important Notes
           </h4>
-          <div className="grid md:grid-cols-2 gap-6 text-gray-700">
-            <div>
-              <h5 className="font-medium mb-2">Dress Code</h5>
-              <p className="text-sm">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow duration-200">
+              <div className="flex items-center justify-center w-12 h-12 bg-accent-blue/10 rounded-full mx-auto mb-4">
+                <i className="fas fa-tshirt text-accent-blue text-xl"></i>
+              </div>
+              <h5 className="font-medium text-gray-800 mb-3 text-center">Dress Code</h5>
+              <p className="text-sm text-gray-600 text-center">
                 Semi-formal outdoor attire. Ladies, consider comfortable shoes for mountain terrain.
               </p>
             </div>
-            <div>
-              <h5 className="font-medium mb-2">Weather</h5>
-              <p className="text-sm">
+            <div className="bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow duration-200">
+              <div className="flex items-center justify-center w-12 h-12 bg-accent-blue/10 rounded-full mx-auto mb-4">
+                <i className="fas fa-cloud-sun text-accent-blue text-xl"></i>
+              </div>
+              <h5 className="font-medium text-gray-800 mb-3 text-center">Weather</h5>
+              <p className="text-sm text-gray-600 text-center">
                 August temperatures: 70-80°F during day, 50-60°F evening. Bring a light jacket.
               </p>
             </div>
-            <div>
-              <h5 className="font-medium mb-2">Transportation</h5>
-              <p className="text-sm">
+            <div className="bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow duration-200">
+              <div className="flex items-center justify-center w-12 h-12 bg-accent-blue/10 rounded-full mx-auto mb-4">
+                <i className="fas fa-bus text-accent-blue text-xl"></i>
+              </div>
+              <h5 className="font-medium text-gray-800 mb-3 text-center">Transportation</h5>
+              <p className="text-sm text-gray-600 text-center">
                 Shuttle service provided from downtown hotels to ceremony venue at 3:00 PM.
               </p>
             </div>
-            <div>
-              <h5 className="font-medium mb-2">RSVP</h5>
-              <p className="text-sm">
+            <div className="bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow duration-200">
+              <div className="flex items-center justify-center w-12 h-12 bg-accent-blue/10 rounded-full mx-auto mb-4">
+                <i className="fas fa-reply text-accent-blue text-xl"></i>
+              </div>
+              <h5 className="font-medium text-gray-800 mb-3 text-center">RSVP</h5>
+              <p className="text-sm text-gray-600 text-center">
                 Please respond by July 1, 2024. We can't wait to celebrate with you!
               </p>
             </div>

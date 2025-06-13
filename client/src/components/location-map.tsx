@@ -37,52 +37,97 @@ export default function LocationMap() {
 
           {/* Location Details */}
           <div className="space-y-8">
-            {/* Ceremony Location */}
-            <div className="bg-gray-50 rounded-xl p-6">
-              <h4 className="font-playfair text-xl font-semibold text-primary mb-4">
-                Ceremony Venue
-              </h4>
-              <div className="space-y-3">
-                <p className="font-medium text-gray-800">Schweitzer Mountain Resort</p>
-                <p className="text-gray-600">10000 Schweitzer Mountain Rd, Sandpoint, ID 83864</p>
-                <div className="flex items-center text-sm text-gray-600">
-                  <i className="fas fa-car mr-2"></i>
-                  <span>15 minutes from downtown Sandpoint</span>
+            {/* Venue Information Side by Side */}
+            <div className="grid md:grid-cols-2 gap-6">
+              {/* Ceremony Location */}
+              <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-accent-blue">
+                <div className="flex items-center mb-4">
+                  <div className="w-10 h-10 bg-accent-blue/10 rounded-full flex items-center justify-center mr-3">
+                    <i className="fas fa-heart text-accent-blue"></i>
+                  </div>
+                  <h4 className="font-playfair text-xl font-semibold text-primary">
+                    Ceremony Venue
+                  </h4>
                 </div>
-                <div className="flex items-center text-sm text-gray-600">
-                  <i className="fas fa-mountain mr-2"></i>
-                  <span>Elevation: 6,400 feet</span>
+                <div className="space-y-3">
+                  <p className="font-medium text-gray-800">Schweitzer Mountain Resort</p>
+                  <p className="text-gray-600 text-sm">10000 Schweitzer Mountain Rd, Sandpoint, ID 83864</p>
+                  <div className="flex items-center text-sm text-gray-600">
+                    <i className="fas fa-car text-accent-blue mr-2"></i>
+                    <span>15 minutes from downtown Sandpoint</span>
+                  </div>
+                  <div className="flex items-center text-sm text-gray-600">
+                    <i className="fas fa-mountain text-accent-blue mr-2"></i>
+                    <span>Elevation: 6,400 feet</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* Reception Location */}
+              <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-accent-blue">
+                <div className="flex items-center mb-4">
+                  <div className="w-10 h-10 bg-accent-blue/10 rounded-full flex items-center justify-center mr-3">
+                    <i className="fas fa-glass-cheers text-accent-blue"></i>
+                  </div>
+                  <h4 className="font-playfair text-xl font-semibold text-primary">
+                    Reception Venue
+                  </h4>
+                </div>
+                <div className="space-y-3">
+                  <p className="font-medium text-gray-800">The Floating Restaurant</p>
+                  <p className="text-gray-600 text-sm">115 Lake St, Sandpoint, ID 83864</p>
+                  <div className="flex items-center text-sm text-gray-600">
+                    <i className="fas fa-water text-accent-blue mr-2"></i>
+                    <span>Directly on Lake Pend Oreille</span>
+                  </div>
+                  <div className="flex items-center text-sm text-gray-600">
+                    <i className="fas fa-walking text-accent-blue mr-2"></i>
+                    <span>Downtown Sandpoint waterfront</span>
+                  </div>
                 </div>
               </div>
             </div>
 
-            {/* Reception Location */}
-            <div className="bg-gray-50 rounded-xl p-6">
-              <h4 className="font-playfair text-xl font-semibold text-primary mb-4">
-                Reception Venue
-              </h4>
-              <div className="space-y-3">
-                <p className="font-medium text-gray-800">The Floating Restaurant</p>
-                <p className="text-gray-600">115 Lake St, Sandpoint, ID 83864</p>
-                <div className="flex items-center text-sm text-gray-600">
-                  <i className="fas fa-water mr-2"></i>
-                  <span>Directly on Lake Pend Oreille</span>
+            {/* Enhanced Getting Around Section */}
+            <div className="bg-gradient-to-r from-accent-blue/5 to-light-blue rounded-xl p-8 shadow-lg">
+              <div className="flex items-center mb-6">
+                <div className="w-12 h-12 bg-accent-blue/10 rounded-full flex items-center justify-center mr-4">
+                  <i className="fas fa-route text-accent-blue text-xl"></i>
                 </div>
-                <div className="flex items-center text-sm text-gray-600">
-                  <i className="fas fa-walking mr-2"></i>
-                  <span>Downtown Sandpoint waterfront</span>
+                <h4 className="font-playfair text-2xl font-semibold text-primary">Getting Around</h4>
+              </div>
+              
+              <div className="grid md:grid-cols-3 gap-6">
+                <div className="bg-white rounded-lg p-6 shadow-sm">
+                  <div className="flex items-center mb-3">
+                    <i className="fas fa-shuttle-van text-accent-blue text-lg mr-3"></i>
+                    <h5 className="font-medium text-gray-800">Shuttle Service</h5>
+                  </div>
+                  <p className="text-gray-600 text-sm">
+                    Complimentary shuttles from downtown hotels to ceremony venue at 3:00 PM
+                  </p>
+                </div>
+                
+                <div className="bg-white rounded-lg p-6 shadow-sm">
+                  <div className="flex items-center mb-3">
+                    <i className="fas fa-parking text-accent-blue text-lg mr-3"></i>
+                    <h5 className="font-medium text-gray-800">Parking Available</h5>
+                  </div>
+                  <p className="text-gray-600 text-sm">
+                    Free parking available at both ceremony and reception venues
+                  </p>
+                </div>
+                
+                <div className="bg-white rounded-lg p-6 shadow-sm">
+                  <div className="flex items-center mb-3">
+                    <i className="fas fa-clock text-accent-blue text-lg mr-3"></i>
+                    <h5 className="font-medium text-gray-800">Travel Time</h5>
+                  </div>
+                  <p className="text-gray-600 text-sm">
+                    Scenic 20-minute drive between ceremony and reception locations
+                  </p>
                 </div>
               </div>
-            </div>
-
-            {/* Directions */}
-            <div className="bg-accent-blue/10 rounded-xl p-6">
-              <h4 className="font-semibold text-primary mb-3">Getting Around</h4>
-              <p className="text-gray-700 text-sm leading-relaxed">
-                We'll provide shuttle transportation between venues and downtown hotels. 
-                For those driving, parking is available at both locations. The scenic 
-                drive between ceremony and reception takes about 20 minutes.
-              </p>
             </div>
           </div>
         </div>
