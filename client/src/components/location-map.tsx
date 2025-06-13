@@ -10,28 +10,18 @@ export default function LocationMap() {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 mb-12">
-          {/* Map Placeholder */}
+          {/* Interactive Map */}
           <div className="bg-gray-100 rounded-xl overflow-hidden shadow-lg">
-            <div className="aspect-video bg-gray-200 flex items-center justify-center">
-              <div className="text-center p-8">
-                <i className="fas fa-map text-4xl text-gray-400 mb-4"></i>
-                <p className="text-gray-600 font-medium">Interactive Map</p>
-                <p className="text-gray-500 text-sm mt-2">
-                  Ceremony and Reception Locations
-                </p>
-                <div className="mt-4">
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d173035.52159814066!2d-116.65574742949224!3d48.24946357119428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5361c29c72e36f7b%3A0x40bfb5811b8b8c3e!2sSandpoint%2C%20ID!5e0!3m2!1sen!2sus!4v1709845600000!5m2!1sen!2sus"
-                    width="100%"
-                    height="300"
-                    style={{ border: 0 }}
-                    allowFullScreen
-                    loading="lazy"
-                    referrerPolicy="no-referrer-when-downgrade"
-                    title="Sandpoint, Idaho Location"
-                  />
-                </div>
-              </div>
+            <div className="aspect-video relative">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d173035.52159814066!2d-116.65574742949224!3d48.24946357119428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5361c29c72e36f7b%3A0x40bfb5811b8b8c3e!2sSandpoint%2C%20ID!5e0!3m2!1sen!2sus!4v1709845600000!5m2!1sen!2sus"
+                className="absolute inset-0 w-full h-full"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Sandpoint, Idaho - Ceremony and Reception Locations"
+              />
             </div>
           </div>
 

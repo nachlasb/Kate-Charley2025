@@ -114,6 +114,7 @@ Changelog:
 - June 13, 2025: Reduced hero logo padding for tighter text spacing and updated to specific tandem bicycle image
 - June 13, 2025: Moved tandem bicycle image into "Getting Around" section as integrated visual element
 - June 13, 2025: Fixed registry button mobile display issues by replacing dynamic Tailwind classes with explicit conditional styling
+- June 13, 2025: Updated interactive map to fill entire frame by removing padding and making iframe occupy full container
 
 ## User Preferences
 
