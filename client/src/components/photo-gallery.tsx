@@ -94,16 +94,11 @@ export default function PhotoGallery() {
           ))}
         </div>
 
-        {/* Additional Info */}
+        {/* Additional Hashtags */}
         <div className="bg-light-blue rounded-xl p-8 text-center">
-          <div className="flex items-center justify-center mb-4">
-            <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center mr-3">
-              <i className="fas fa-dog text-white"></i>
-            </div>
-            <h4 className="font-playfair text-xl font-semibold text-primary">Don't Forget Guiness!</h4>
-          </div>
+          <h4 className="font-playfair text-xl font-semibold text-primary mb-4">More Ways to Share</h4>
           <p className="text-gray-700 mb-4">
-            Our black lab will be joining the celebration! Tag any photos with our furry ring bearer using #unforgettablenish
+            Use these hashtags to help us find and share all the beautiful moments from our special day
           </p>
           <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-600">
             <span className="bg-white rounded-full px-4 py-2">#KateAndCharley</span>
