@@ -1,27 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
-  <!-- Simple dog head icon -->
-  <circle cx="32" cy="32" r="30" fill="#2d2d2d"/>
+  <!-- Labrador head with characteristic features -->
+  <circle cx="32" cy="32" r="30" fill="#f8f9fa"/>
   
-  <!-- Dog head shape -->
-  <ellipse cx="32" cy="28" rx="16" ry="14" fill="#1a1a1a"/>
+  <!-- Main head shape - broader for lab -->
+  <ellipse cx="32" cy="30" rx="18" ry="16" fill="#1a1a1a"/>
   
-  <!-- Ears -->
-  <ellipse cx="22" cy="20" rx="5" ry="8" fill="#0f0f0f" transform="rotate(-25 22 20)"/>
-  <ellipse cx="42" cy="20" rx="5" ry="8" fill="#0f0f0f" transform="rotate(25 42 20)"/>
+  <!-- Characteristic lab ears - longer and droopy -->
+  <ellipse cx="19" cy="24" rx="6" ry="12" fill="#0f0f0f" transform="rotate(-15 19 24)"/>
+  <ellipse cx="45" cy="24" rx="6" ry="12" fill="#0f0f0f" transform="rotate(15 45 24)"/>
   
-  <!-- Snout -->
-  <ellipse cx="32" cy="36" rx="6" ry="4" fill="#0f0f0f"/>
+  <!-- Broader snout typical of labs -->
+  <ellipse cx="32" cy="38" rx="8" ry="6" fill="#0f0f0f"/>
   
-  <!-- Eyes -->
-  <circle cx="27" cy="24" r="2.5" fill="#fff"/>
-  <circle cx="37" cy="24" r="2.5" fill="#fff"/>
-  <circle cx="27" cy="24" r="1.5" fill="#000"/>
-  <circle cx="37" cy="24" r="1.5" fill="#000"/>
+  <!-- Kind, alert eyes -->
+  <circle cx="26" cy="26" r="3" fill="#fff"/>
+  <circle cx="38" cy="26" r="3" fill="#fff"/>
+  <circle cx="26" cy="26" r="2" fill="#8B4513"/>
+  <circle cx="38" cy="26" r="2" fill="#8B4513"/>
+  <circle cx="26.5" cy="25.5" r="0.8" fill="#fff"/>
+  <circle cx="38.5" cy="25.5" r="0.8" fill="#fff"/>
   
-  <!-- Nose -->
-  <ellipse cx="32" cy="34" rx="1.5" ry="1" fill="#000"/>
+  <!-- Prominent nose -->
+  <ellipse cx="32" cy="36" rx="2.5" ry="2" fill="#000"/>
   
-  <!-- Mouth -->
-  <path d="M32 36 Q29 38 27 37" stroke="#000" stroke-width="1" fill="none"/>
-  <path d="M32 36 Q35 38 37 37" stroke="#000" stroke-width="1" fill="none"/>
+  <!-- Gentle mouth expression -->
+  <path d="M32 38 Q28 40 26 39" stroke="#000" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M32 38 Q36 40 38 39" stroke="#000" stroke-width="1.5" fill="none" stroke-linecap="round"/>
 </svg>

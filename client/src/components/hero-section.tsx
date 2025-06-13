@@ -17,9 +17,21 @@ export default function HeroSection() {
       {/* Content */}
       <div className="relative z-10 text-center text-white px-4">
         <div className="flex items-center justify-center mb-6">
-          <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center mr-4">
-            <i className="fas fa-dog text-white text-2xl"></i>
-          </div>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="48" height="48" className="mr-4">
+            <ellipse cx="32" cy="30" rx="18" ry="16" fill="#ffffff"/>
+            <ellipse cx="19" cy="24" rx="6" ry="12" fill="#e5e7eb" transform="rotate(-15 19 24)"/>
+            <ellipse cx="45" cy="24" rx="6" ry="12" fill="#e5e7eb" transform="rotate(15 45 24)"/>
+            <ellipse cx="32" cy="38" rx="8" ry="6" fill="#e5e7eb"/>
+            <circle cx="26" cy="26" r="3" fill="#1a1a1a"/>
+            <circle cx="38" cy="26" r="3" fill="#1a1a1a"/>
+            <circle cx="26" cy="26" r="2" fill="#8B4513"/>
+            <circle cx="38" cy="26" r="2" fill="#8B4513"/>
+            <circle cx="26.5" cy="25.5" r="0.8" fill="#fff"/>
+            <circle cx="38.5" cy="25.5" r="0.8" fill="#fff"/>
+            <ellipse cx="32" cy="36" rx="2.5" ry="2" fill="#000"/>
+            <path d="M32 38 Q28 40 26 39" stroke="#000" strokeWidth="1.5" fill="none" strokeLinecap="round"/>
+            <path d="M32 38 Q36 40 38 39" stroke="#000" strokeWidth="1.5" fill="none" strokeLinecap="round"/>
+          </svg>
           <h1 className="font-playfair text-5xl md:text-7xl font-bold">
             Kate & Charley
           </h1>
