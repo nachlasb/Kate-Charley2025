@@ -113,6 +113,7 @@ Changelog:
 - June 13, 2025: Repositioned site icon in hero section below couple's names and updated bicycle image
 - June 13, 2025: Reduced hero logo padding for tighter text spacing and updated to specific tandem bicycle image
 - June 13, 2025: Moved tandem bicycle image into "Getting Around" section as integrated visual element
+- June 13, 2025: Fixed registry button mobile display issues by replacing dynamic Tailwind classes with explicit conditional styling
 
 ## User Preferences
 

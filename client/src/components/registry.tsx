@@ -46,14 +46,23 @@ export default function Registry() {
           {registries.map((registry, index) => (
             <div key={index} className="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
               <div className="mb-6">
-                <div className={`w-16 h-16 bg-${registry.color}-100 rounded-full flex items-center justify-center mx-auto mb-4`}>
-                  <i className={`${registry.icon} text-${registry.color}-600 text-2xl`}></i>
+                <div className={`w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 ${
+                  registry.color === 'red' ? 'bg-red-100' : 
+                  registry.color === 'blue' ? 'bg-blue-100' : 'bg-green-100'
+                }`}>
+                  <i className={`${registry.icon} text-2xl ${
+                    registry.color === 'red' ? 'text-red-600' : 
+                    registry.color === 'blue' ? 'text-blue-600' : 'text-green-600'
+                  }`}></i>
                 </div>
                 <h4 className="font-semibold text-primary text-lg">{registry.name}</h4>
               </div>
               <p className="text-gray-600 text-sm mb-6">{registry.description}</p>
               <Button 
-                className={`bg-${registry.color}-600 hover:bg-${registry.color}-700 text-white w-full`}
+                className={`text-white w-full font-medium py-3 px-6 rounded-lg transition-colors duration-200 ${
+                  registry.color === 'red' ? 'bg-red-600 hover:bg-red-700' : 
+                  registry.color === 'blue' ? 'bg-blue-600 hover:bg-blue-700' : 'bg-green-600 hover:bg-green-700'
+                }`}
                 onClick={() => handleRegistryClick(registry.url)}
               >
                 View Registry
