@@ -37,7 +37,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-600 pt-8 text-center">
           <p className="text-gray-400 text-sm mb-4">
-            Thank you for joining us, we can't wait to celebrate with our family and friends!
+            We can't wait to celebrate with our family and friends in beautiful Idaho!
           </p>
           <div className="flex justify-center space-x-6">
             <a 
