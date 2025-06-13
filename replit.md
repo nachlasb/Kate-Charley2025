@@ -31,13 +31,14 @@ This is a full-stack wedding website application built for Kate & Charley's wedd
 ## Key Components
 
 ### Frontend Components
-- **Navigation**: Sticky navigation with smooth scrolling and active section tracking
-- **Hero Section**: Full-screen hero with wedding couple names and date
-- **Wedding Details**: Ceremony and reception information with location details
-- **Location Map**: Interactive Google Maps integration showing venue locations
+- **Navigation**: Sticky navigation with smooth scrolling, active section tracking, and black lab logo
+- **Hero Section**: Full-screen hero with mountain background optimized for mobile devices
+- **Wedding Details**: Ceremony and reception information with enhanced visual cards and icons
+- **Location Map**: Interactive Google Maps with side-by-side venue cards and improved transportation section
 - **Accommodations**: Hotel recommendations with special wedding rates
-- **Activities**: Local attractions and things to do in Sandpoint, Idaho
+- **Activities**: Local attractions and things to do in Sandpoint, Idaho (includes Guiness reference)
 - **Registry**: Wedding registry links to multiple retailers
+- **Weather**: Real-time NOAA weather data for Sandpoint, Idaho with current conditions and forecast
 - **Contact Form**: Contact form with toast notifications
 
 ### Backend Components
@@ -96,7 +97,13 @@ This is a full-stack wedding website application built for Kate & Charley's wedd
 ## Changelog
 
 Changelog:
-- June 13, 2025. Initial setup
+- June 13, 2025: Initial setup with complete wedding website
+- June 13, 2025: Enhanced mobile hero image display and fixed background attachment
+- June 13, 2025: Added black lab dog SVG favicon and logo in navigation  
+- June 13, 2025: Implemented real-time NOAA weather integration for Sandpoint, Idaho
+- June 13, 2025: Redesigned Important Notes section with icon cards and hover effects
+- June 13, 2025: Updated venue display to side-by-side column layout
+- June 13, 2025: Enhanced Getting Around section with improved visual design
 
 ## User Preferences
 

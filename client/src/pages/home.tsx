@@ -6,6 +6,7 @@ import LocationMap from "@/components/location-map";
 import Accommodations from "@/components/accommodations";
 import Activities from "@/components/activities";
 import Registry from "@/components/registry";
+import Weather from "@/components/weather";
 import Contact from "@/components/contact";
 import Footer from "@/components/footer";
 
@@ -49,6 +50,7 @@ export default function Home() {
       <Accommodations />
       <Activities />
       <Registry />
+      <Weather />
       <Contact />
       <Footer />
     </div>
