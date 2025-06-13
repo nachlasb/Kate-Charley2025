@@ -39,6 +39,7 @@ This is a full-stack wedding website application built for Kate & Charley's wedd
 - **Activities**: Local attractions and things to do in Sandpoint, Idaho (includes Guiness reference)
 - **Registry**: Wedding registry links to multiple retailers
 - **Weather**: Real-time NOAA weather data for Sandpoint, Idaho with current conditions and forecast
+- **Photo Gallery**: Instagram-linked photo grid promoting #unforgettablenish hashtag for guest engagement
 - **Contact Form**: Contact form with toast notifications
 
 ### Backend Components
@@ -104,6 +105,7 @@ Changelog:
 - June 13, 2025: Redesigned Important Notes section with icon cards and hover effects
 - June 13, 2025: Updated venue display to side-by-side column layout
 - June 13, 2025: Enhanced Getting Around section with improved visual design
+- June 13, 2025: Added Instagram photo gallery with #unforgettablenish hashtag promotion for guest engagement
 
 ## User Preferences
 

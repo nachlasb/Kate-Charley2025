@@ -7,7 +7,7 @@ export default function Navigation() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['home', 'details', 'location', 'stay', 'activities', 'registry', 'weather', 'contact'];
+      const sections = ['home', 'details', 'location', 'stay', 'activities', 'registry', 'weather', 'gallery', 'contact'];
       const currentSection = sections.find(section => {
         const element = document.getElementById(section);
         if (element) {
@@ -34,6 +34,7 @@ export default function Navigation() {
     { href: '#activities', label: 'Things to Do' },
     { href: '#registry', label: 'Registry' },
     { href: '#weather', label: 'Weather' },
+    { href: '#gallery', label: 'Photos' },
     { href: '#contact', label: 'Contact' }
   ];
 

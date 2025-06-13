@@ -7,6 +7,7 @@ import Accommodations from "@/components/accommodations";
 import Activities from "@/components/activities";
 import Registry from "@/components/registry";
 import Weather from "@/components/weather";
+import PhotoGallery from "@/components/photo-gallery";
 import Contact from "@/components/contact";
 import Footer from "@/components/footer";
 
@@ -51,6 +52,7 @@ export default function Home() {
       <Activities />
       <Registry />
       <Weather />
+      <PhotoGallery />
       <Contact />
       <Footer />
     </div>
