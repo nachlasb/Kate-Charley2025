@@ -43,17 +43,16 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-3">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="32" height="32" className="flex-shrink-0">
-              <ellipse cx="32" cy="30" rx="18" ry="16" fill="#2d2d2d"/>
-              <ellipse cx="20" cy="22" rx="6" ry="10" fill="#1a1a1a" transform="rotate(-30 20 22)"/>
-              <ellipse cx="44" cy="22" rx="6" ry="10" fill="#1a1a1a" transform="rotate(30 44 22)"/>
-              <ellipse cx="32" cy="38" rx="8" ry="6" fill="#1a1a1a"/>
-              <circle cx="26" cy="26" r="3" fill="#000"/>
-              <circle cx="38" cy="26" r="3" fill="#000"/>
-              <circle cx="26.5" cy="25" r="0.8" fill="#fff"/>
-              <circle cx="38.5" cy="25" r="0.8" fill="#fff"/>
-              <ellipse cx="32" cy="36" rx="2.5" ry="1.5" fill="#000"/>
-              <path d="M32 38 Q28 42 24 40" stroke="#000" strokeWidth="1.5" fill="none" strokeLinecap="round"/>
-              <path d="M32 38 Q36 42 40 40" stroke="#000" strokeWidth="1.5" fill="none" strokeLinecap="round"/>
+              <g transform="translate(8, 12) scale(0.75)">
+                <path d="M15 25 Q15 15 25 10 Q35 8 45 12 Q50 15 50 22 Q50 28 48 32 Q45 38 40 40 Q30 42 20 40 Q15 35 15 25" fill="#1a1a1a"/>
+                <path d="M12 20 Q8 18 8 25 Q8 32 12 35 Q15 32 15 25 Q15 20 12 20" fill="#1a1a1a"/>
+                <path d="M40 32 Q48 35 50 40 Q48 45 42 45 Q38 42 40 32" fill="#1a1a1a"/>
+                <circle cx="32" cy="22" r="2.5" fill="#fff"/>
+                <circle cx="32.5" cy="21.5" r="1.5" fill="#000"/>
+                <circle cx="33" cy="21" r="0.5" fill="#fff"/>
+                <ellipse cx="45" cy="38" rx="2" ry="1.5" fill="#000"/>
+                <path d="M42 42 Q40 44 38 43" stroke="#000" strokeWidth="1" fill="none" strokeLinecap="round"/>
+              </g>
             </svg>
             <div className="font-playfair text-xl font-semibold text-primary">
               Kate & Charley
