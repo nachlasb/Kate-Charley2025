@@ -111,6 +111,7 @@ Changelog:
 - June 13, 2025: Implemented responsive mobile-centered navigation header
 - June 13, 2025: Fixed photo gallery image display issues and added two full-width images (wedding ceremony and couple on bicycles)
 - June 13, 2025: Repositioned site icon in hero section below couple's names and updated bicycle image
+- June 13, 2025: Reduced hero logo padding for tighter text spacing and updated to specific tandem bicycle image
 
 ## User Preferences
 

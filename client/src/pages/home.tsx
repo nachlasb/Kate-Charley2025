@@ -66,8 +66,8 @@ export default function Home() {
       <section className="w-full">
         <div className="relative h-96 md:h-[500px] overflow-hidden">
           <img
-            src="https://images.unsplash.com/photo-1544191696-15693e02b685?auto=format&fit=crop&w=1920&h=800&q=80"
-            alt="Couple riding bicycles"
+            src="https://thumbs.dreamstime.com/b/couple-tandem-bicycle-beautiful-young-having-fun-riding-park-104166098.jpg"
+            alt="Couple riding tandem bicycle"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-black/20"></div>
