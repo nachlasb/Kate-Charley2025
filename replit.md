@@ -112,6 +112,7 @@ Changelog:
 - June 13, 2025: Fixed photo gallery image display issues and added two full-width images (wedding ceremony and couple on bicycles)
 - June 13, 2025: Repositioned site icon in hero section below couple's names and updated bicycle image
 - June 13, 2025: Reduced hero logo padding for tighter text spacing and updated to specific tandem bicycle image
+- June 13, 2025: Moved tandem bicycle image into "Getting Around" section as integrated visual element
 
 ## User Preferences
 

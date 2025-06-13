@@ -97,6 +97,15 @@ export default function LocationMap() {
                 <h4 className="font-playfair text-2xl font-semibold text-primary">Getting Around</h4>
               </div>
               
+              {/* Tandem Bicycle Image */}
+              <div className="mb-8 rounded-xl overflow-hidden shadow-lg">
+                <img
+                  src="https://thumbs.dreamstime.com/b/couple-tandem-bicycle-beautiful-young-having-fun-riding-park-104166098.jpg"
+                  alt="Couple riding tandem bicycle"
+                  className="w-full h-64 md:h-80 object-cover"
+                />
+              </div>
+              
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="bg-white rounded-lg p-6 shadow-sm">
                   <div className="flex items-center mb-3">
